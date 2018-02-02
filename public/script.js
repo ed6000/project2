@@ -8,7 +8,7 @@ console.log("file is loaded")
 
     function makeCall(movie) {
         $.ajax(
-          `http://www.omdbapi.com/?t=${movie}&apikey=5a994d12`,
+          `https://www.omdbapi.com/?t=${movie}&apikey=5a994d12`,
         {
             success: function(data) {
                 appendToDom(data);
