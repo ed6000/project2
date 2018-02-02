@@ -1,0 +1,1 @@
+Technologies used are: HTML/CSS/jQuery/AJAX

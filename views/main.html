@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Binge Watch</title>
+  <script src="../jquery.js"></script>
+  <script src="../script.js"></script>
+  <style type="text/css" media="screen">
+    .hide-me{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Movies</h1>
+  </header>
+  <div class="container">
+    <div class="search-container">
+      <label>Movie Search:</label>
+      <input type="text" id="movie" />
+      <button id="submit">Search</button>
+{{time}}
+      <form class="movie-form" action="" method="" >
+        <input class="hide-me" id="title" type="text" name="title" value="" placeholder="">
+        <input class="hide-me" id="runtime" type="text" name="runtime" value="" placeholder="">
+        <input class="hide-me" id="imdb" type="text" name="imdb" value="" placeholder="">
+            <div id="result">
+        <input type="submit" value="Add to database"></input> 
+      </div>
+      </form>
+      <form class="comment-form" action="/comments" method="POST" accept-charset="utf-8">
+
+        <input type="text" name="comments"></input>
+        <input id="imdb2" type="hidden" name="movieid" value=></input>
+        <input type="submit" value="Comment"></input> 
+      </form>
+<a href="/movies" title="">View all movies in database</a>
+    </div>
+
+  </div>
+</body>
+</html>

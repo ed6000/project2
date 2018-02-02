@@ -1,0 +1,22 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "6.11.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "morgan": "^1.9.0",
+    "mustache-express": "^1.2.5",
+    "pg-promise": "^7.4.1"
+  }
+}
